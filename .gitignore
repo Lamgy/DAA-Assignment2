@@ -1,11 +1,9 @@
-# Maven
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 .mvn/
 *.log
 *.tmp
 
-# IntelliJ / Eclipse / VS Code
 .idea/
 *.iml
 *.ipr
@@ -15,11 +13,9 @@
 .settings/
 .vscode/
 
-# OS files
 .DS_Store
 Thumbs.db
 
-# Output artifacts
 docs/performance.csv
 docs/performance-plots/*.png
 docs/*.pdf
