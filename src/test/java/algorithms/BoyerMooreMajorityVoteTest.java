@@ -79,7 +79,7 @@ public class BoyerMooreMajorityVoteTest {
         Random rand = new Random();
 
         for (int n : sizes) {
-            int[] arr = rand.ints(n, 0, 10).toArray();
+            int[] arr = rand.ints(n, 0, 1000).toArray();
             int result = runAndTrack(arr, "Scalability");
             assertTrue(result == -1 || Arrays.stream(arr).anyMatch(x -> x == result));
         }

@@ -16,6 +16,15 @@ public class PerformanceTracker {
     public void addCompare() { comparisons++; }
     public void addAccess(int count) { arrayAccesses += count; }
 
+    public void track(Runnable task) {
+        start();
+        try {
+            task.run();
+        } finally {
+            stop();
+        }
+    }
+
     @Override
     public String toString() {
         return String.format("time=%fms, comparisons=%d, accesses=%d",

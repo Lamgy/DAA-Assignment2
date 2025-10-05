@@ -25,10 +25,6 @@ public class BoyerMooreMajorityVote {
                 if (value == candidate) count++;
                 else count--;
             }
-            if (count > arr.length / 2) {
-                t.stop();
-                return candidate;
-            }
         }
 
         int freq = 0;
