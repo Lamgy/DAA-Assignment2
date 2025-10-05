@@ -150,3 +150,20 @@ nearly-sorted,100000,2,150000,200000
 1000000,sorted,2,1500000,2000000
 1000000,reverse-sorted,1,1500000,2000000
 1000000,nearly-sorted,1,1500000,2000000
+Cross Validation,9,0,16,18
+Single Element,1,0,0,0
+Empty Array,0,0,0,0
+Nearly Sorted Input,6,0,11,12
+Scalability,100,0,152,200
+Scalability,1000,0,1553,2000
+Scalability,10000,1,15471,20000
+Scalability,100000,6,155630,200000
+Reverse Sorted Input,7,0,11,14
+All Duplicates,5,0,2,3
+Random Input,230,0,379,460
+Random Input,517,0,847,1034
+Random Input,649,0,1041,1298
+Random Input,585,0,970,1170
+Random Input,1087,0,1762,2174
+No Majority,6,0,9,12
+Sorted Input,7,0,3,4
