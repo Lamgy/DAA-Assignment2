@@ -1,11 +1,12 @@
+Algorithm,InputSize,Time(ms),Comparisons,ArrayAccesses
 Cross Validation,9,0,16,18
 Single Element,1,0,1,2
 Empty Array,0,0,0,0
 Nearly Sorted Input,6,0,11,12
-Scalability,100,0,160,200
-Scalability,1000,0,1557,2000
-Scalability,10000,1,15539,20000
-Scalability,100000,4,155461,200000
+Scalability,100,0,159,200
+Scalability,1000,0,1560,2000
+Scalability,10000,1,15555,20000
+Scalability,100000,4,155644,200000
 Reverse Sorted Input,7,0,11,14
 All Duplicates,5,0,9,10
 Random Input,230,0,379,460
@@ -15,3 +16,69 @@ Random Input,585,0,970,1170
 Random Input,1087,0,1762,2174
 No Majority,6,0,9,12
 Sorted Input,7,0,13,14
+Cross Validation,9,0,16,18
+Single Element,1,0,1,2
+Empty Array,0,0,0,0
+Nearly Sorted Input,6,0,11,12
+Scalability,100,0,153,200
+Scalability,1000,0,1560,2000
+Scalability,10000,1,15587,20000
+Scalability,100000,4,155601,200000
+Reverse Sorted Input,7,0,11,14
+All Duplicates,5,0,9,10
+Random Input,230,0,379,460
+Random Input,517,0,847,1034
+Random Input,649,0,1041,1298
+Random Input,585,0,970,1170
+Random Input,1087,0,1762,2174
+No Majority,6,0,9,12
+Sorted Input,7,0,13,14
+Cross Validation,9,0,16,18
+Single Element,1,0,1,2
+Empty Array,0,0,0,0
+Nearly Sorted Input,6,0,11,12
+Scalability,100,0,154,200
+Scalability,1000,0,1570,2000
+Scalability,10000,1,15586,20000
+Scalability,100000,4,155653,200000
+Reverse Sorted Input,7,0,11,14
+All Duplicates,5,0,9,10
+Random Input,230,0,379,460
+Random Input,517,0,847,1034
+Random Input,649,0,1041,1298
+Random Input,585,0,970,1170
+Random Input,1087,0,1762,2174
+No Majority,6,0,9,12
+Sorted Input,7,0,13,14
+random,100,0,166,200
+sorted,100,0,150,200
+reverse-sorted,100,0,150,200
+nearly-sorted,100,0,150,200
+random,1000,0,1620,2000
+sorted,1000,0,1500,2000
+reverse-sorted,1000,0,1500,2000
+nearly-sorted,1000,0,1500,2000
+random,10000,1,16288,20000
+sorted,10000,0,15000,20000
+reverse-sorted,10000,1,15000,20000
+nearly-sorted,10000,0,15000,20000
+random,100000,2,162590,200000
+sorted,100000,2,150000,200000
+reverse-sorted,100000,1,150000,200000
+nearly-sorted,100000,0,150000,200000
+random,100,0,159,200
+sorted,100,0,150,200
+reverse-sorted,100,0,150,200
+nearly-sorted,100,0,150,200
+random,1000,0,1626,2000
+sorted,1000,0,1500,2000
+reverse-sorted,1000,0,1500,2000
+nearly-sorted,1000,0,1500,2000
+random,10000,0,16238,20000
+sorted,10000,0,15000,20000
+reverse-sorted,10000,0,15000,20000
+nearly-sorted,10000,0,15000,20000
+random,100000,1,162480,200000
+sorted,100000,1,150000,200000
+reverse-sorted,100000,1,150000,200000
+nearly-sorted,100000,2,150000,200000
