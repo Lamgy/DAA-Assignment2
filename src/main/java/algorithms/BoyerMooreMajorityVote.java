@@ -7,6 +7,8 @@ public class BoyerMooreMajorityVote {
 
     public static int findMajorityElement(int[] arr, PerformanceTracker t) {
         Objects.requireNonNull(arr);
+        if (arr.length == 0) return -1;
+        if (arr.length == 1) return arr[0];
         if (t == null) t = new PerformanceTracker();
         t.start();
         int candidate = 0;
@@ -22,6 +24,10 @@ public class BoyerMooreMajorityVote {
                 t.addCompare();
                 if (value == candidate) count++;
                 else count--;
+            }
+            if (count > arr.length / 2) {
+                t.stop();
+                return candidate;
             }
         }
 
