@@ -1,4 +1,4 @@
-package cli;
+package util;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
@@ -12,8 +12,13 @@ public class CSVWriter implements AutoCloseable {
 
     public CSVWriter(String filePath, String... headers) throws IOException {
         Files.createDirectories(Paths.get(filePath).getParent());
-        printer = new CSVPrinter(new FileWriter(filePath, false),
-                CSVFormat.DEFAULT.builder().setHeader(headers).build());
+        boolean append = Files.exists(Paths.get(filePath));
+        printer = new CSVPrinter(
+                new FileWriter(filePath, append),
+                append
+                        ? CSVFormat.DEFAULT
+                        : CSVFormat.DEFAULT.builder().setHeader(headers).build()
+        );
     }
 
     public void writeRow(Object... values) throws IOException {
