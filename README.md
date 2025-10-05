@@ -165,3 +165,13 @@ Example Output
 Algorithm: Boyer–Moore Majority Vote
 Time: 3ms, Comparisons: 1498, Accesses: 2000
 CSV saved to: src/main/java/metrics/test-metrics.csv
+```
+
+## Scalability Plot
+
+Empirical performance of the **Boyer–Moore Majority Vote** algorithm across various input distributions:
+
+Random, Expected linear growth, Sorted, Near-constant overhead, Reverse-sorted, Linear, similar to random, Nearly-sorted, Stable and efficient
+
+**Plot:**  
+![Boyer–Moore Majority Vote Scalability](docs/plot.png)
