@@ -1,0 +1,17 @@
+Cross Validation,9,0,16,18
+Single Element,1,0,1,2
+Empty Array,0,0,0,0
+Nearly Sorted Input,6,0,11,12
+Scalability,100,0,160,200
+Scalability,1000,0,1557,2000
+Scalability,10000,1,15539,20000
+Scalability,100000,4,155461,200000
+Reverse Sorted Input,7,0,11,14
+All Duplicates,5,0,9,10
+Random Input,230,0,379,460
+Random Input,517,0,847,1034
+Random Input,649,0,1041,1298
+Random Input,585,0,970,1170
+Random Input,1087,0,1762,2174
+No Majority,6,0,9,12
+Sorted Input,7,0,13,14
