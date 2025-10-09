@@ -18,4 +18,3 @@ Thumbs.db
 metrics/test-metrics.csv
 docs/performance.csv
 docs/performance-plots/*.png
-docs/*.pdf
